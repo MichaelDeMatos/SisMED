@@ -27,7 +27,7 @@ public class AgendamentoConsultaController {
 	public String listAgendamentoConsulta(Model model) {
 		model.addAttribute("agendamentoConsulta", new AgendamentoConsulta());
 		model.addAttribute("listAgendamentoConsulta", this.agendamentoConsultaService.listAgendamentoConsulta());
-		return "agendamentoConsulta";
+		return "agendamento";
 	}
 	
 	// Pra add e atualizar
